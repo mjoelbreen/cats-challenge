@@ -1,0 +1,48 @@
+html {
+    font: 16px "Work Sans", Verdana, sans-serif;
+}
+
+.cat-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cat-preview {
+    display: inline-block;
+    border: 2px solid black;
+    flex-direction: column;
+    padding: 5%;
+    margin: .5rem;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.cat-preview:hover {
+    border: 2px solid yellow;
+}
+
+.preview-image {
+    display: block;
+    min-height: 5rem;
+    min-width: 5rem;
+    max-height: 5rem;
+    max-width: 5rem;
+    border-radius: 15%;;
+    
+    
+}
+
+.preview-name {
+    display: flex;
+    flex-wrap: wrap;
+    font: 2rem "Work Sans", sans-serif;
+    font-weight: 500;
+    
+}
+
+.preview-birthDate {
+    display: flex;
+    font: 2rem "Work Sans", sans-serif;
+    
+}
