@@ -1,6 +1,5 @@
 {
-  "cats":
-  [
+  "cats": [
     {
       "id": 1,
       "name": "Sam",
@@ -40,6 +39,30 @@
       "owner_name": "Jane Doe",
       "thumbnail_url": "https://images.unsplash.com/photo-1580784355694-0d5295dcc007?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
       "views_count": 0
+    },
+    {
+      "thumbnailURL": "adas",
+      "name": "ada",
+      "owner": "ada",
+      "id": 6
+    },
+    {
+      "thumbnailURL": "afdgagf",
+      "name": "bob",
+      "owner": "sandy",
+      "id": 7
+    },
+    {
+      "thumbnailURL": "fgafg",
+      "name": "sandy",
+      "owner": "jones",
+      "id": 8
+    },
+    {
+      "thumbnailURL": "afad",
+      "name": "afad",
+      "owner": "afdaf",
+      "id": 9
     }
   ]
 }

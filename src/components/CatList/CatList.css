@@ -1,21 +1,52 @@
 html {
-    font: 16px "Work Sans", Verdana, sans-serif;
+    font: 15px "Work Sans", Verdana, sans-serif;
 }
+
+
+.Cat {
+    float: right;
+    display: block;
+    flex-direction: column;
+    justify-content: right;
+    width: 16.66rem;
+    margin-left: 20%;
+    z-index: 0;
+}
+
+
+.Cat .image-container {
+    height: 16.66rem;
+    margin-bottom: 1rem;
+}
+
+.Cat h2 {
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .Cat p {
+    font-size: .88rem;
+    font-weight: 300;
+    line-height: 1rem;
+  }
 
 .cat-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
+    margin-right: 30%;
+    z-index: 1;
 }
 
 .cat-preview {
     display: inline-block;
     border: 2px solid black;
     flex-direction: column;
-    padding: 5%;
+    padding: .5rem;
     margin: .5rem;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .cat-preview:hover {
@@ -23,19 +54,22 @@ html {
 }
 
 .preview-image {
-    display: block;
-    min-height: 5rem;
-    min-width: 5rem;
-    max-height: 5rem;
-    max-width: 5rem;
+    display: inline-flex;
+    min-height: 10rem;
+    min-width: 10rem;
+    max-height: 10rem;
+    max-width: 10rem;
     border-radius: 15%;;
     
     
 }
 
 .preview-name {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
+    
+    margin-left: 2rem;
+    justify-content: right;
     font: 2rem "Work Sans", sans-serif;
     font-weight: 500;
     
@@ -45,4 +79,17 @@ html {
     display: flex;
     font: 2rem "Work Sans", sans-serif;
     
+}
+
+.box {
+    border: 2px solid black;
+    float: right;
+    display: block;
+    flex-direction: column;
+  
+    width: 20rem;
+    padding: 2%;
+    margin-left: 20%;
+    margin-top: 5%;
+    z-index: 20;
 }

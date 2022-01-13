@@ -1,7 +1,17 @@
+html {
+    font: 16px "Work Sans", Verdana, sans-serif;
+}
+
+
+
+
+
+
+
 .Cat {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: right;
     width: 16.66rem;
     margin: 0 .5rem 2.3rem .5rem;
 }
@@ -22,4 +32,8 @@
     font-size: .88rem;
     font-weight: 300;
     line-height: 1rem;
+  }
+
+  .popup {
+      border: 2px solid black;
   }
